@@ -5,7 +5,7 @@ var DBOpened = false;
 
 //This object will hold opened connections to the collections the app uses
 var openedColls = {};
-var url = '';
+var url = 'mongodb://'+ process.env.dbuser+ ':' +process.env.dbpassword+'@ds159185.mlab.com:59185/heroku_bw9c8b6x';
 
 //import the language driver
 module.exports = function(dbName , authObj , app){
