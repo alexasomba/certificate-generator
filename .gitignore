@@ -1,0 +1,7 @@
+node_modules
+.env
+data/
+.idea/
+public/.DS_Store
+app_server/.DS_Store
+routes/.DS_Store

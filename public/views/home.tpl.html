@@ -1,0 +1,55 @@
+<div class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout__header-row">
+          <h3>Alex Asomba's Certificate Generator App</h3>
+        </div>
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+        </div>
+        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+          <a href="#bulk" class="mdl-layout__tab">Bulk</a>
+          <a href="#manual" class="mdl-layout__tab">Manual</a>
+          <button 
+            ng-click="loadBuilder()"
+            class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
+            <i class="material-icons" role="presentation">add</i>
+            <span class="visuallyhidden">Add</span>
+          </button>
+          <div  class="mdl-tooltip mdl-tooltip--left" data-mdl-for="add">
+            Create a new certificate
+          </div>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="mdl-layout__tab-panel is-active" id="overview">
+          <ng-include
+            src="getPartial('overview')">
+          </ng-include>
+        </div>
+        <div class="mdl-layout__tab-panel" id="bulk">
+          <ng-include
+            src="getPartial('bulk')">
+          </ng-include>
+        </div>
+         <div class="mdl-layout__tab-panel" id="manual">
+          <ng-include
+            src="getPartial('manual')">
+          </ng-include>
+        </div>
+        <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--bottom-section">
+            <div class="mdl-logo">
+              Designed by
+            </div>
+            <ul class="mdl-mega-footer--link-list">
+              <li><a href="http://alexasomba.com">
+              Alexander Asomba</a></li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </div>
