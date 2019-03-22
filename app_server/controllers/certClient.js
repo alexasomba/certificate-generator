@@ -1,7 +1,7 @@
 //import spookyjs
 var Spooky = require('spooky');
 var path = require('path');
-var baseUrl = process.env.NODE_ENV == 'production'? 'http://digivate-certificate-generator.herokuapp.com/' : 'http://localhost:4000/';
+var baseUrl = process.env.NODE_ENV == 'production'? 'https://digivate-certificate-generator.herokuapp.com/' : 'http://localhost:4000/';
 module.exports = function(){
 	//
 	function initSpooky(person, dirNamedFile, dirImgFile , cb){
