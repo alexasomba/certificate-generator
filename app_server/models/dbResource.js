@@ -5,7 +5,7 @@ var DBOpened = false;
 
 //This object will hold opened connections to the collections the app uses
 var openedColls = {};
-var url = 'mongodb://'+ process.env.dbuser+ ':' +process.env.dbpassword+'@ds159185.mlab.com:59185/heroku_bw9c8b6x';
+var url = '';
 
 //import the language driver
 module.exports = function(dbName , authObj , app){
@@ -50,7 +50,7 @@ module.exports = function(dbName , authObj , app){
 	if(app.get('env') ==='development'){
        url = 'mongodb://127.0.0.1:27017/'+dbName.trim();
 	} else {
-       url = 'mongodb://'+ process.env.dbuser+ ':' +process.env.dbpassword+'@ds159185.mlab.com:59185/heroku_bw9c8b6x';
+       url = 'mongodb://heroku_bw9c8b6x:205spub7cgi3s0uspm2ev2hg73@ds113936.mlab.com:13936/heroku_bw9c8b6x';
 	}
 
 	return {
