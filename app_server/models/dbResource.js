@@ -50,7 +50,7 @@ module.exports = function(dbName , authObj , app){
 	if(app.get('env') ==='development'){
        url = 'mongodb://127.0.0.1:27017/'+dbName.trim();
 	} else {
-       url = 'mongodb://'+ process.env.dbuser+ ':' +process.env.dbpassword+'@ds159185.mlab.com:59185/heroku_d8d1cq15';
+       url = 'mongodb://'+ process.env.dbuser+ ':' +process.env.dbpassword+'@ds159185.mlab.com:59185/heroku_bw9c8b6x';
 	}
 
 	return {
