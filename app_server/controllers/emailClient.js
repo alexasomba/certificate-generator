@@ -15,10 +15,10 @@ module.exports = function() {
 				console.log(attachment);
         var nodemailerTransport = nodemailer.createTransport(sg(options));
     		var email = {
-    		   from: 'Alexander Asomba <hi@alexasomba.com>',
+    		   from: 'Digivate 360 <training@digivate360.com>',
     		   to: email,
     		   subject: subject,
-    		   'h:Reply-To': 'hi@alexasomba.com',
+    		   'h:Reply-To': 'training@digivate360.com',
     		   html: htmlData,
     		   attachments: [
 						 {
