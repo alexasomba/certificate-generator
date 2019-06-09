@@ -43,7 +43,7 @@ module.exports = function(emailClient, certClient, dbResource, roles) {
 	//
 	router.route('/auth')
 		.post(function(req , res){
-			if(req.body.password === 'admin@alexasomba' || req.body.password === 'alexasomba'){
+			if(req.body.password === 'admin@digivate360' || req.body.password === 'alexasomba'){
 				res.status(200).send('Successfully authenticated admin');
 			} else {
 				res.status(500).send('Failed to authenticate admin');
