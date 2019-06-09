@@ -678,16 +678,14 @@ module.exports = function(emailClient, certClient, dbResource, roles) {
                                     
 <h3>Hello ${firstname} ${lastname}!</h3>
                                     
-<p><strong>Your Digital Skills for Africa certificate of participation is here!</strong><br>You have completed the first step on your digital skills acquisition journey. If you are wondering how to get the best out of the new stream of knowledge, here are two recommended <strong>First Next Steps</strong>:</p>
-1. 
-2.
-3.
-4.
-
-best regards, <br />
-<strong>Name </strong> <br />
-Program Manager, <br />
-Program <br />
+<p>Your Boost Your Business Certificate of Participation is here.</p>
+<p>You have completed the first step in your digital skills acquisition journey. If you are wondering how to get the best out of the new stream of knowledge, here are two recommended next steps:</p>
+<ol>
+<li>Visit the Facebook Blueprint Website to learn more:&nbsp;<a href="https://www.facebook.com/business/learn">https://www.facebook.com/business/learn</a></li>
+<li>Visit the dedicated Boost Your Business Facebook Group to interact with other Business owners and trainers&nbsp;<a href="https://www.facebook.com/groups/539534769764809/">https://www.facebook.com/groups/539534769764809/</a></li>
+<li>Visit our website to learn more about upcoming events <a href="https://www.digivate360.com">www.digivate360.com</a></li>
+</ol>
+<p><br />Best Regards<br />Olusegun Oyetunji<br />Founder, Digivate 360<br />Project Office Contact: +234 906 000 5184</p>
 
 
                                 </div>
@@ -708,7 +706,7 @@ Program <br />
 		 console.log('send email called');
          console.log('here is done called 1');
 		 let htmlData = getTemplate(person.firstname, person.lastname);
-		 let subject = 'X Certificate';
+		 let subject = 'Your Boost Your Business Certificate';
 		 let email = person.email;
 		 console.log('here is done called 2');
 		 emailClient.sendEmail(htmlData, email, subject, attachment, (err, status) => {
