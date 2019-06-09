@@ -706,7 +706,7 @@ module.exports = function(emailClient, certClient, dbResource, roles) {
 		 console.log('send email called');
          console.log('here is done called 1');
 		 let htmlData = getTemplate(person.firstname, person.lastname);
-		 let subject = 'X Certificate';
+		 let subject = 'Your Boost Your Business Certificate from Digivate360';
 		 let email = person.email;
 		 console.log('here is done called 2');
 		 emailClient.sendEmail(htmlData, email, subject, attachment, (err, status) => {
