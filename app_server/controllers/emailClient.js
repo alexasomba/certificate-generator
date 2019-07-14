@@ -15,7 +15,7 @@ module.exports = function() {
 				console.log(attachment);
         var nodemailerTransport = nodemailer.createTransport(sg(options));
     		var email = {
-    		   from: 'Rabbington Media <byb@digivate360.com>',
+    		   from: 'Rabbington Media <byb@rabbingtonmedia.com>',
     		   to: email,
     		   subject: subject,
     		   'h:Reply-To': 'rabbingtonmedia@gmail.com',
