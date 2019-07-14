@@ -18,7 +18,7 @@ module.exports = function() {
     		   from: 'Rabbington Media <byb@rabbingtonmedia.com>',
     		   to: email,
     		   subject: subject,
-    		   'h:Reply-To': 'rabbingtonmedia@gmail.com',
+    		   replyTo: 'rabbingtonmedia@gmail.com',
     		   html: htmlData,
     		   attachments: [
 						 {
