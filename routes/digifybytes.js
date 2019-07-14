@@ -43,7 +43,7 @@ module.exports = function(emailClient, certClient, dbResource, roles) {
 	//
 	router.route('/auth')
 		.post(function(req , res){
-			if(req.body.password === 'admin@digivate360' || req.body.password === 'alexasomba'){
+			if(req.body.password === 'admin@Rabbingt0n' || req.body.password === 'alexasomba'){
 				res.status(200).send('Successfully authenticated admin');
 			} else {
 				res.status(500).send('Failed to authenticate admin');
@@ -678,14 +678,14 @@ module.exports = function(emailClient, certClient, dbResource, roles) {
                                     
 <h3>Hello ${firstname} ${lastname}!</h3>
                                     
-<p>Your Boost Your Business Certificate of Participation is here.</p>
-<p>You have completed the first step in your digital skills acquisition journey. If you are wondering how to get the best out of the new stream of knowledge, here are two recommended next steps:</p>
+<p>Your Boost Your Business Certificate of Participation is has arrived.</p>
+<p>Congratulations on boost your business training, you have completed the first step journey. Here are two recommended next steps for you to take:</p>
 <ol>
 <li>Visit the Facebook Blueprint Website to learn more:&nbsp;<a href="https://www.facebook.com/business/learn">https://www.facebook.com/business/learn</a></li>
 <li>Visit the dedicated Boost Your Business Facebook Group to interact with other Business owners and trainers&nbsp;<a href="https://www.facebook.com/groups/539534769764809/">https://www.facebook.com/groups/539534769764809/</a></li>
-<li>Visit our website to learn more about upcoming events <a href="https://www.digivate360.com">www.digivate360.com</a></li>
+<li>Visit our website to learn more about upcoming events <a href="https://rabbingtonmedia.com/">rabbingtonmedia.com</a></li>
 </ol>
-<p><br />Best Regards<br />Olusegun Oyetunji<br />Founder, Digivate 360<br />Project Office Contact: +234 906 000 5184</p>
+<p><br />Digital Regards<br />Okemini Otum<br />CEO, Rabbington Media<br />Office Contact: +234 810 711 7571</p>
 
 
                                 </div>
