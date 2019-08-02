@@ -679,11 +679,12 @@ module.exports = function(emailClient, certClient, dbResource, roles) {
 <h3>Hello ${firstname} ${lastname}!</h3>
                                     
 <p>Your Boost Your Business Certificate of Participation is has arrived.</p>
-<p>Congratulations on boost your business training, you have completed the first step journey. Here are two recommended next steps for you to take:</p>
+<p>Congratulations on boost your business training, you have completed the first step in your journey. Here are two recommended next steps for you to take:</p>
 <ol>
 <li>Visit the Facebook Blueprint Website to learn more:&nbsp;<a href="https://www.facebook.com/business/learn">https://www.facebook.com/business/learn</a></li>
 <li>Visit the dedicated Boost Your Business Facebook Group to interact with other Business owners and trainers&nbsp;<a href="https://www.facebook.com/groups/539534769764809/">https://www.facebook.com/groups/539534769764809/</a></li>
-<li>Visit our website to learn more about upcoming events <a href="https://rabbingtonmedia.com/">rabbingtonmedia.com</a></li>
+<li>Visit our website to learn more about upcoming events&nbsp; <a href="https://rabbingtonmedia.com/">rabbingtonmedia.com</a></li>
+<li>Follow us on Instagram <a href="https://www.instagram.com/rabbingtonmedia/">rabbingtonmedia.com</a> and facebook <a href="https://www.facebook.com/RabbingtonMedia/">@rabbingtonmedia</a></li>
 </ol>
 <p><br />Digital Regards<br />Okemini Otum<br />CEO, Rabbington Media<br />Office Contact: +234 810 711 7571</p>
 
