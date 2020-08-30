@@ -50,7 +50,7 @@ module.exports = function(dbName , authObj , app){
 	if(app.get('env') ==='development'){
        url = 'mongodb://127.0.0.1:27017/'+dbName.trim();
 	} else {
-       url = process.env.MONGODB_URI;
+       url = process.env.DB_URI;
 	}
 
 	return {
